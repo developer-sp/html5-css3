@@ -1,0 +1,33 @@
+
+.menu {
+	background-color: blue;
+	margin: 0;
+	padding: 0;
+}
+.menu a {
+	color: white;
+	text-decoration:none;
+	display: block;
+	padding: 10px;
+}
+.menu a:hover {
+	background-color: white;
+	color: blue;
+}
+.menu li {
+	list-style: none;
+	display: inline-block;
+}
+
+.submenu {
+	position: absolute;
+	display: none;
+	min-width: 100px;
+}
+
+.menu li:hover .submenu {
+	display: block;
+}
+.submenu .menu li {
+	display: block;
+}
